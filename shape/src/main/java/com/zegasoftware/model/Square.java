@@ -2,7 +2,7 @@ package com.zegasoftware.model;
 
 public class Square extends Shape {
 
-    int a;
+    private int a;
 
     @Override
     public double area() {
