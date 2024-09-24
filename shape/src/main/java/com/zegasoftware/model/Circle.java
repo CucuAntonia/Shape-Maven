@@ -1,6 +1,6 @@
 package com.zegasoftware.model;
 
-public abstract class Circle extends Shape {
+public class Circle extends Shape {
     private int radius;
     private double pi=3.14;
     @Override

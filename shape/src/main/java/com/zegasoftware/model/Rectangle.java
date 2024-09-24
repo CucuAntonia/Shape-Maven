@@ -1,6 +1,6 @@
 package com.zegasoftware.model;
 
-public abstract class Rectangle extends Shape {
+public class Rectangle extends Shape {
     private int lenght;
     private int width;
 
