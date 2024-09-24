@@ -18,4 +18,8 @@ public class Square extends Shape {
     public double perimeter() {
         return 4*a;
     }
+
+    public int getA() {
+        return a;
+    }
 }

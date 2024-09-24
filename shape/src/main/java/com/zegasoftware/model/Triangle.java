@@ -25,4 +25,18 @@ public class Triangle extends Shape {
     public double perimeter() {
         return a+b+c;
     }
+
+    public int getA() {
+        return a;
+    }
+
+    public int getB() {
+        return b;
+    }
+
+    public int getC() {
+        return c;
+    }
+
+
 }

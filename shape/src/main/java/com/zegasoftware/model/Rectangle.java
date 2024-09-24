@@ -23,4 +23,12 @@ public class Rectangle extends Shape {
     {
         return 2*width + 2*lenght;
     }
+
+    public int getLenght() {
+        return lenght;
+    }
+
+    public int getWidth() {
+        return width;
+    }
 }

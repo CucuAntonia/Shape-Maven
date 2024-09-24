@@ -22,4 +22,12 @@ public class Circle extends Shape {
     {
     return 2*pi*radius;
     }
+
+    public double getPi() {
+        return pi;
+    }
+
+    public int getRadius() {
+        return radius;
+    }
 }
