@@ -4,6 +4,11 @@ public class Square extends Shape {
 
     private int a;
 
+    Square()
+    {
+        this.a=a;
+    }
+
     @Override
     public double area() {
         return a*a;

@@ -3,6 +3,13 @@ package com.zegasoftware.model;
 public class Circle extends Shape {
     private int radius;
     private double pi=3.14;
+
+    Circle()
+    {
+        this.radius=radius;
+        this.pi=pi;
+    }
+
     @Override
     public double area()
     {
