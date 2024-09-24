@@ -1,10 +1,10 @@
 package com.zegasoftware.model;
 
 public class Rectangle extends Shape {
-    private int lenght;
-    private int width;
+    private double lenght;
+    private double width;
 
-    public Rectangle()
+    public Rectangle(double lenght, double width)
     {
         this.lenght=lenght;
         this.width=width;
@@ -24,11 +24,11 @@ public class Rectangle extends Shape {
         return 2*width + 2*lenght;
     }
 
-    public int getLenght() {
+    public double getLenght() {
         return lenght;
     }
 
-    public int getWidth() {
+    public double getWidth() {
         return width;
     }
 }

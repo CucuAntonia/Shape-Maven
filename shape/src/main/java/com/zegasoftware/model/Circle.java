@@ -1,10 +1,10 @@
 package com.zegasoftware.model;
 
 public class Circle extends Shape {
-    private int radius;
+    private double radius;
     private double pi=3.14;
 
-    public Circle()
+    public Circle(double radius, double pi)
     {
         this.radius=radius;
         this.pi=pi;
@@ -27,7 +27,7 @@ public class Circle extends Shape {
         return pi;
     }
 
-    public int getRadius() {
+    public double getRadius() {
         return radius;
     }
 }

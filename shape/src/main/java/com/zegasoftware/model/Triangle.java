@@ -7,7 +7,7 @@ public class Triangle extends Shape {
     private int b;
     private int c;
 
-    public Triangle()
+    public Triangle(int a, int b, int c)
     {
         this.a=a;
         this.b=b;
