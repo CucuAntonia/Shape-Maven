@@ -4,7 +4,7 @@ public class Square extends Shape {
 
     private int a;
 
-    Square()
+    public Square()
     {
         this.a=a;
     }
