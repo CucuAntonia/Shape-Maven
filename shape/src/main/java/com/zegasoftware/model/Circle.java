@@ -1,30 +1,26 @@
 package com.zegasoftware.model;
 
+import static java.lang.Math.PI;
+
 public class Circle extends Shape {
     private double radius;
-    private double pi=3.14;
+    //  private static final double PI = 3.14D;
 
-    public Circle(double radius)
-    {
-        this.radius=radius;
+    public Circle(double radius) {
+        this.radius = radius;
     }
 
     @Override
-    public double area()
-    {
+    public double area() {
 
-        return pi * radius *radius;
+        return PI * radius * radius;
     }
 
     @Override
-    public double perimeter()
-    {
-    return 2*pi*radius;
+    public double perimeter() {
+        return 2 * PI * radius;
     }
 
-    public double getPi() {
-        return pi;
-    }
 
     public double getRadius() {
         return radius;

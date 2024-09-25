@@ -1,31 +1,28 @@
 package com.zegasoftware.model;
 
 public class Rectangle extends Shape {
-    private double lenght;
+    private double length;
     private double width;
 
-    public Rectangle(double lenght, double width)
-    {
-        this.lenght=lenght;
-        this.width=width;
+    public Rectangle(double length, double width) {
+        this.length = length;
+        this.width = width;
     }
 
 
     @Override
-    public double area ()
-    {
-        return width*lenght;
+    public double area() {
+        return width * length;
     }
 
 
     @Override
-    public double perimeter()
-    {
-        return 2*width + 2*lenght;
+    public double perimeter() {
+        return 2 * width + 2 * length;
     }
 
-    public double getLenght() {
-        return lenght;
+    public double getLength() {
+        return length;
     }
 
     public double getWidth() {

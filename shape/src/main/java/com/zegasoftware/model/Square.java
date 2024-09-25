@@ -1,25 +1,9 @@
 package com.zegasoftware.model;
 
-public class Square extends Shape {
+public class Square extends Rectangle {
 
-    private int a;
-
-    public Square(int a)
-    {
-        this.a=a;
+    public Square(int a) {
+        super(a, a);
     }
 
-    @Override
-    public double area() {
-        return a*a;
-    }
-
-    @Override
-    public double perimeter() {
-        return 4*a;
-    }
-
-    public int getA() {
-        return a;
-    }
 }
